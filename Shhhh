@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weeknd Fan Page</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .yes {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .no {
+            background-color: #f44336;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Will you be my Valentine? 💖</h1>
+        <img src="https://i.pinimg.com/originals/74/9c/97/749c97a808be49a1c4f7c0b7759b8c96.png" alt="Milk Mocha Bears">
+        <div class="buttons">
+            <button class="yes" onclick="yesAnswer()">Yes</button>
+            <button class="no" onclick="noAnswer()">No</button>
+        </div>
+    </div>
+
+    <script>
+        function yesAnswer() {
+            alert("Yay! I knew you'd say yes! ❤️🥰");
+        }
+        function noAnswer() {
+            alert("Try again... I'm asking nicely! 🥺");
+        }
+    </script>
+</body>
+</html>
